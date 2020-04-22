@@ -695,8 +695,6 @@
 
 //slider__sub
 
-
-
 .slider-sub {
     padding: 120px 0px;
     background-color: #eff1f5;
@@ -721,11 +719,50 @@
     margin: 15px;
 }
 
-
-
 //slider__sub end
 
+//statistic
 
+.statistic {
+    background-color: #212225;
+    padding: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__inner {
+     
+    }
+    &__icon {
+        width: 46px;
+        height: 47px;
+        margin: 0 auto;
+    }
+    &__amount {
+        padding-top: 51px;
+        color: #feb71d;
+        font-size: 36px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 36px;
+        color: #ffffff;
+    }
+    .amount-1{
+        color: #58c9e9;
+    }
+    .amount-2{
+        color: #77de51;
+    }
+    .amount-3{
+        color: #ff6a6d;
+    }
+}
+
+//statistic end
 
 
 
