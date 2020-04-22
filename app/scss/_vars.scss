@@ -1,0 +1,16 @@
+$text: #555555;
+$blue: #0674ec;
+
+
+
+
+
+
+@mixin f700 {
+    font-family: 'Quicksand-Bold';
+    font-weight: 700;
+}
+@mixin f400 {
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
