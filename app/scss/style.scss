@@ -1029,7 +1029,39 @@
 
 //news end
 
+//support
 
+.support {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between; 
+    }
+    &__item {
+        padding: 60px 0px;
+        text-align: center;
+        flex-basis: calc(50%);
+        &_line{
+            border-right: 1px solid #e8eaf3;
+        }
+    }
+    &__icon {
+    }
+    &__descr {
+        padding-top: 30px;
+        color: #000000;
+        font-size: 24px;
+        a{
+        text-decoration: none;
+                color: $blue;
+        }  
+    }
+    &__descr_a {
+        a{
+           color: #7347c1; 
+        }
+    }
+}
+//support end
 
 
 @import "media";
