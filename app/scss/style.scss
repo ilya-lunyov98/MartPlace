@@ -293,7 +293,6 @@
             border-radius: 4px;
             cursor: pointer;
             margin-left: 25px;
-       
         }
     }
     &__form {
@@ -303,6 +302,49 @@
         background-color: #fff;
         border-radius: 6px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        .jq-selectbox__select {
+            height: 55px;
+            padding-left: 20px;
+            padding-right: 55px;
+            border:  1px solid #dcdcdc;
+            border-bottom-color: #dcdcdc;
+            border-radius:0 4px 4px 0;
+            background: #fff;
+            box-shadow: none;
+            font: font-family 'Quicksand';
+            color: #555555; 
+            text-shadow: none;
+            line-height: 40px;
+            margin-left: -30px;
+            margin-bottom: 4px;
+            &-text{
+                padding-top: 5px;
+                color: #747b86;
+            }
+        }
+        .jq-selectbox__trigger{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 34px;
+            height: 100%;
+            border-left: none
+        }
+        .jq-selectbox__trigger-arrow {
+            border: none;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: '';
+                background-image: url('../images/select-1.png');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-left: 40px;
+                padding-top: 23px;
+            }
+        }
     }
 }
 
@@ -557,6 +599,48 @@
         width: 95px;
         outline: none;
     }
+    .jq-selectbox__select {
+        outline: none;
+        width: 95px;
+        height: 32px;
+        border: none;
+        border-bottom-color: transparent;
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: none;
+        font: font-family 'Quicksand';
+        color: #333;
+        text-shadow: none;
+    }
+    .jq-selectbox__trigger{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 34px;
+        height: 100%;
+        border-left: none
+    }
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            background-image: url('../images/select-2.png');
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            top: -7px;
+            right: -41px;
+            padding-left: 25px;
+        }
+    }
+    .jq-selectbox__select-text {
+        color: #747b86;
+        width: 150%;
+    }
+
     
 }
 .mixer-controls{

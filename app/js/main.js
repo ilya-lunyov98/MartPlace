@@ -22,5 +22,7 @@ $(function(){
         });
       });
       
-      
+      $('input, .mainscreen__form select').styler();
+
+      $('input, .mixer__select').styler();
 })
