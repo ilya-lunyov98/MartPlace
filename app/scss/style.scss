@@ -883,7 +883,74 @@
 
 //options end
 
+//feedback
+.feedback{
+    padding: 121px 0px;
+    &__container{
+        padding: 60px 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -15px;
+    }
+    &__item {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+        border-radius: 0px 4px 4px 0px;
+        width: calc(50% - 15px);
+        padding: 50px 30px;
+        border-left: 2px solid $blue;
+        border-top-left-radius: 1px;
+    }
+    &__persone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+    &__name {
+        font-size: 20px;
+        color: #000000;
+     
+    }
+    &__initials{
+        margin-left: 20px;  
+        display: flex;
+        flex-direction: column;
 
+    }
+    &__duty {
+        color: #555555;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    &__cloud {
+        padding-right: 20px;
+    }
+    &__text {
+        padding-top: 30px;
+        font-size: 16px;
+        color: #555555;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        a{  
+            background-color: $blue;
+            padding: 20px 35px;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+    }
+}
+
+//feedback end
 
 
 
