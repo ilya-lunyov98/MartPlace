@@ -1477,7 +1477,7 @@
     &__wrapper{
         display: flex;
         padding-top: 90px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
     }
     &__aside {
         flex-basis: calc(20%); 
@@ -1702,7 +1702,6 @@
 //middlescreen end
 .dn{
     display: none;
-    transition: all .5s;
 }
 .color{
     color: $blue;
@@ -1825,17 +1824,48 @@
 //pagination
 
 .pagination {
+    padding-bottom: 120px;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__prev{
+        margin-right:15px;
+        margin-left: 0px;
+    }
+    &__link,
+    &__next,
+    &__prev {
+        display: inline-block;
+        background-color: #fff;
+        padding: 8px 20px;
+        border-radius: 50px;
+        color: #747b86;
+        text-decoration: none;
+        margin-left: 5px;   
+    }
+    &__next{
+        margin-left: 15px;
+        background-color: #7347c1;
+    }
+    &__more {
+        margin-left: 5px;   
+        background-color: #fff;
+        padding: 8px 20px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50px;
+        color: #747b86;
+    }
+    &__disabled {
+        display: flex;
+    }
+    .dn{
+        display: none;
+        transition: all .5s;
+    }
 }
-.pagination__wrapper {
-}
-.pagination__link {
-}
-.pagination__more {
-}
-.pagination__disabled {
-}
-.pagination__last {
-}
+
 
 //pagination end
 

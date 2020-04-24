@@ -1197,12 +1197,13 @@
               </div>
           </div>
 
-          <section class="pagination">
+          </div>
+          <div class="pagination">
             <div class="pagination__wrapper">
-              <a class="pagination__link" href="#">
+              <a class="pagination__prev" href="#">
                 <img src="/images/arrow-left.png" alt="">
               </a>
-              <a class="pagination__link" href="#">
+              <a class="pagination__link" href="#" style="background-color:#0674ec; color:#fff;">
                 1
               </a>
               <a class="pagination__link" href="#">
@@ -1227,18 +1228,18 @@
               <a class="pagination__link" href="#">
                 7
               </a>
-            </div>
+              </div>
               <a class="pagination__link" href="#">
                 8
               </a>
-              <a class="pagination__link pagination__last" href="#">
+              <a class="pagination__next" href="#">
                 <img src="/images/arrow-right.png" alt="">
               </a>
             </div>
-          </section>
           </div>
         </div>
         </div>
+      
       </section>
 
 
@@ -1361,6 +1362,17 @@
           $(this).addClass('color'),
           $('.icon-Grid_active').removeClass('color')
         });
+      </script>
+      <script>
+        $('.pagination__disabled').ready(function(){
+          $('.pagination__disabled').addClass('dn')
+        })
+      </script>
+      <script>
+        $('.pagination__more').click(function(){
+          $('.pagination__disabled').removeClass('dn'),
+          $('.pagination__more').addClass('dn')
+        })
       </script>
       <script src="js/main.js"></script>
 
