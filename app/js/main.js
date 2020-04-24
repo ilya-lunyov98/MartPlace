@@ -5,12 +5,8 @@ $(function(){
             nextArrow:'<button type="button" class="slick-next">></button>',
             prevArrow:'<button type="button" class="slick-prev"><</button>'
         });
-      });
 
-      var mixer = mixitup('.mixer-mix');
-
-      $(document).ready(function(){
-        $('.slider-sub__items').slick({
+       $('.slider-sub__items').slick({
             appendArrows:$('.slider-sub-controls__buttons'),      
             nextArrow:'<button type="button" class="slick-next">></button>',
             prevArrow:'<button type="button" class="slick-prev"><</button>',
@@ -20,9 +16,15 @@ $(function(){
             infinite:true,
             touchThreshold: 10,
         });
-      });
-      
-      $('input, .mainscreen__form select').styler();
 
-      $('input, .mixer__select').styler();
-})
+      });
+
+      var mixer = mixitup('.mixer-mix');
+        
+      $('input, select').styler();
+
+      $('.icon-Grid_active').on('click', function(){
+        $('.middlescreen-product').addClass('.list')
+      });
+
+});
