@@ -22,4 +22,6 @@ $(function(){
       $('input, select').styler();
 
       var mixer = mixitup('.mixer-mix');
+
+
 });
