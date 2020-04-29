@@ -1912,7 +1912,7 @@
         display: flex;
     }
     &__item {
-        flex-basis: calc(70%);
+        flex-basis: calc(65%);
         margin-right: 20px;
     } 
     &__big {
@@ -2092,7 +2092,7 @@
 
 
 .preview-aside {
-    flex-basis: calc(30%);
+    flex-basis: calc(35%);
     margin-left: 20px;
     &__wrapper{
         background-color: #fff;
@@ -2260,6 +2260,7 @@
                     font-weight: 400;
                     flex-basis: calc(60% - 20px);
                     margin-left: 20px;
+                    padding-top: 0px;
                 }   
                 .preview-aside__colspan{
                     color: $blue;
