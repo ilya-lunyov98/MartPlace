@@ -2331,5 +2331,30 @@
 // preview end
 
 
+//more items
+.more-items{
+    padding: 120px 0px;
+}
+.more-items__title {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    span{
+        text-decoration: none;
+        a{
+            text-decoration: none;
+            color: $blue;
+        }
+    }
+}
+.more-items__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;  
+}
+
+//more items end
+
 
 @import "media";
