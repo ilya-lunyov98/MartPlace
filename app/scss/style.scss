@@ -2449,8 +2449,7 @@
         text-align: center;
     }
     &__top{
-        padding-top: 60px;
-        padding-bottom: 30px;
+        padding: 50px 60px 30px;
         border-bottom: 1px solid #e8ebf0;
     }
     &__sign{
@@ -2458,6 +2457,7 @@
         font-size: 16px;
         line-height: 28px;
         color: #555;
+        padding-top: 30px;
     }
     &__inner {
         padding: 0px 50px 60px 60px;
@@ -2533,6 +2533,7 @@
        
     }
     &__support {
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
         span{
