@@ -2545,6 +2545,12 @@
             }
         }
     }
+    &__recover{
+        padding: 20px 15px 30px 65px;
+        .login__sign{
+            text-align: left;
+        }
+    }
 }
 
 //login end
