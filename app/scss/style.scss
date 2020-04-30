@@ -2492,11 +2492,13 @@
         }
         button{
             display: block;
+            outline: none;
         }
         input{
             font-size: 16px;
             line-height: 26px;
             color: #555;
+            outline: none;
         }
     }
     &__wrap{
@@ -2529,6 +2531,7 @@
             border: none;
             height: 50px;
             padding: 0px 20px;
+            outline:none;
         }
        
     }
@@ -2555,6 +2558,91 @@
 
 //login end
 
+
+// hiw
+
+.hiw{
+    text-align: center;
+    padding: 90px 0px 30px 0px;
+    &__title{
+        span{
+            font-weight: 300;
+            padding-top: 25px;
+            display: block;
+        }
+    }
+    &__links{
+        padding-top: 70px;
+    }
+    &__wrapper{
+        align-items: center;
+    }
+}
+
+  
+.create-new-account {
+    &__wrapper {
+        display: flex;
+        padding: 100px 0px;
+        align-items: center;
+    }
+    &__img {
+        flex-basis: calc(50%);
+
+    }
+    &__descr {
+        flex-basis: calc(50%);
+       padding-left: 100px;
+    }
+    &__title {
+        padding-top: 10px;
+        font-size: 30px;
+        height: 46px;
+    }
+    &__text {
+        padding-top: 35px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #555;
+    }
+    &__link {
+        padding-top: 30px;
+        a{  
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 15px 35px;
+            color: #fff;
+            text-decoration: none;
+            background-color: $blue;
+            border-radius: 50px;
+        }
+
+    }
+    
+}
+
+.upload{
+    background-color: #eff1f5;
+    &__descr{
+       padding-left: 0px;
+       padding-right: 100px;
+    }
+    &__img{
+        text-align: right;
+        padding-right: 10px; 
+    }
+    &__link{
+        a{
+            color: $blue;
+            background-color: #fff;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+  
+
+// hiw end
 
 
 @import "media";
