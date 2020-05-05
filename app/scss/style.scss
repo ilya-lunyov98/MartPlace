@@ -2896,7 +2896,33 @@
     }
 }
 
-
 //contacts end
+
+//404
+
+.error {
+    padding: 80px 0px 100px 0px;
+    &__wrapper {
+        text-align: center;
+    }
+    &__image {
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 80px;
+        padding-top: 40px;
+    }
+    &__link {
+        background-color: $blue;
+        color: #fff;
+        display: inline-block;
+        padding: 20px 45px;
+        border-radius: 50px;
+        margin-top: 40px;
+    }
+}
+
+//404 end
+ 
 
 @import "media";
