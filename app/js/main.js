@@ -23,6 +23,6 @@ $(function(){
 
       var mixer = mixitup('.mixer-mix');
 
-
+        
     
     });

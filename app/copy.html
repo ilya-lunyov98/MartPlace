@@ -29,6 +29,49 @@
               <a class="header__cart icon-shopping-cart" href="#">
                 <div class="header__ammount">2</div>     
               </a>
+              <div class="cart-drop">
+                <div class="cart-drop__item">
+                  <img class="cart-drop__image" src="/images/post.jpg">
+                  <div class="cart-drop__inner">
+                    <div class="cart-drop__title">
+                      Finance and Consulting 
+                      Business Theme
+                    </div>
+                    <div class="cart-drop__cms">
+                      <img src="images/wp.png" alt="">
+                      <span>Wordpress</span>
+                    </div>
+                  </div>
+                  <div class="cart-drop__price">
+                    <button><img src="images/trash.png" alt=""></button>
+                    <div class="cart-drop__cost">$60</div>
+                  </div>
+                </div>
+                <div class="cart-drop__item">
+                  <img class="cart-drop__image" src="/images/post.jpg">
+                  <div class="cart-drop__inner">
+                    <div class="cart-drop__title">
+                      Finance and Consulting 
+                      Business Theme
+                    </div>
+                    <div class="cart-drop__cms">
+                      <img src="images/wp.png" alt="">
+                      <span>Wordpress</span>
+                    </div>
+                  </div>
+                  <div class="cart-drop__price">
+                    <button><img src="images/trash.png" alt=""></button>
+                    <div class="cart-drop__cost">$60</div>
+                  </div>
+                </div>
+                <div class="cart-drop__total">
+                       Total :  <span> $120</span>  
+                </div>
+                <div class="cart-drop__links">
+                  <a class="cart-drop__link" href="#" href="#">Go to Cart</a>
+                  <a class="cart-drop__link" href="#" href="#">Go to Checkout</a>
+                </div>
+              </div>
               <a class="header__link" href="#">
                 <div class="header__account-image">
                   <img src="images/account.png" alt="">
@@ -96,8 +139,6 @@
             </div>
         </div>
     </section>
-
-
 
 
     <section class="action">
@@ -183,6 +224,12 @@
       $('.header-drop').slideToggle()
       })
       </script>
-    <script src="js/main.js"></script>
+    <script>      
+      $('.header__cart').click(function(){
+      $('.cart-drop').slideToggle()
+      })
+      </script>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
