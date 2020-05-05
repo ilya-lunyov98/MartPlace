@@ -39,7 +39,21 @@
                       $20.45
                     </div>
                   </div>
-                 </a>
+              </a>
+              <ul class="header-drop">
+                <li><a href="#" class="icon-heart-o"> <span>Profile Page</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Dashboard</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Profile Page</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Account Settings</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Your Purchases</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Your Favorites</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Add Credits</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Sales Statements</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Upload Item</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Edit Item</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Withdrawals</span> </a></li>
+                <li><a href="#" class="icon-heart-o"> <span>Logout</span> </a></li>
+              </ul>
             </div>
           </div>  
         </div>
@@ -164,6 +178,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
+    <script>      
+      $('.header__link').click(function(){
+      $('.header-drop').slideToggle()
+      })
+      </script>
     <script src="js/main.js"></script>
 </body>
 </html>
