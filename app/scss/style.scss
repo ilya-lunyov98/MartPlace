@@ -194,6 +194,83 @@
             font-size: 14px;
         }
     }
+    .envelope-drop {
+        display: none;
+        position: absolute;
+        top: 77px;
+        background-color: #fff;
+        width: calc(33%);
+        z-index: 9999999;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 0 0 4px 4px;
+    }
+    .drop-title {
+        position: relative;
+        &::after{
+                position: absolute;
+                content: '';
+                background-image: url('../images/triangle.png');
+                top:-29px;
+                right: 10px;
+                width: 30px;
+                height: 60px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position:center;
+        }
+        border-top: 1px solid $blue;
+        font-size: 18px;
+        padding: 25px 25px 20px 25px;
+        border-bottom: 1px solid #e8ebf0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            display: inline-block;
+        }
+        &__link {
+            text-decoration: none;
+            color: $blue;
+        }
+    }
+    .envelope-item {
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        border-bottom: 1px solid #e8ebf0;
+        &__img {
+            width: 40px;
+            height: 40px;
+        }
+        &__title {
+            display: flex;
+            justify-content: space-between;
+            span{
+                font-weight: 700;
+                color: #333333;
+                span{
+                    color: $blue;
+                    font-weight: 400;
+                    padding-left: 12px;
+                }
+                &:nth-child(2){
+                    color: #747a86;
+                    font-weight: 400;
+                }
+                
+            }
+            .envelope-drop__blue{
+                color: $blue;
+                font-weight: 400;
+            }
+        }
+        &__message{
+            margin-top: 10px;
+        }
+    }
+
     &__cart {
         color: #7e8fa1;
         position: relative;
