@@ -9,64 +9,390 @@
     <link rel="stylesheet" href="css/style.min.css" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-          <div class="header__wrapper">
-              <a class="header__logo" href="#">
-                <img src="images/Logo.png" alt="">
-                  <div class="header__store">Mart<span>Place</span></div> 
-              </a> 
-            <div class="header__inner">
-              <a class="header__button" href="#">
-                Become a Seller
-              </a>
-              <a class="header__bell icon-bell-o" href="#">
-                <div class="header__ammount">25</div>      
-              </a>
-              <a class="header__envelope icon-envelope-o" href="#">
-                <div class="header__ammount">6</div>    
-              </a>
-              <a class="header__cart icon-shopping-cart" href="#">
-                <div class="header__ammount">2</div>     
-              </a>
-              <a class="header__link" href="#">
-                <div class="header__account-image">
-                  <img src="images/account.png" alt="">
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+          <a class="header__logo" href="#">
+            <img src="images/Logo.png" alt="">
+              <div class="header__store">Mart<span>Place</span></div> 
+          </a> 
+        <div class="header__inner">
+          <a class="header__button" href="#">
+            Become a Seller
+          </a>
+          <a class="header__bell icon-bell-o" href="#">
+            <div class="header__ammount">25</div>      
+          </a>
+          <div class="bell-drop">
+              <div class="bell-drop__items">
+                <div class="bell-drop__title drop-title">
+                  <div class="drop-title__title">
+                    My Messages
+                  </div>
+                  <a class="drop-title__link" href="#">
+                    View All
+                  </a>
                 </div>
-                  <div class="header__name">
-                    Taofiq Hakim
-                    <div class="header__price">
-                      $20.45
+                <div class="bell-drop-item">
+                  <div class="bell-drop-item__link"  >
+                    <div class="bell-drop-item__img">
+                    <img src="/images/circle.png" alt="">
+                      </div>
+                      <div class="bell-drop-item__title">
+                        <div class="bell-drop-item__message">
+                          <a class="bell-drop-item__black" href="#">Anderson</a>
+                          added to Favourite 
+                          <a class="bell-drop-item__blue" href="#">Marketify Coffee Shop</a>
+                        </div>
+                        <div class="bell-drop-item__time">
+                          Just now
+                        </div>
                     </div>
                   </div>
-                 </a>
+                  <div class="bell-drop-item__icon icon-heart-o">
+                    
+                  </div>
+                </div>
+                <div class="bell-drop-item">
+                  <div class="bell-drop-item__link"  >
+                    <div class="bell-drop-item__img">
+                    <img src="/images/circle.png" alt="">
+                      </div>
+                      <div class="bell-drop-item__title">
+                        <div class="bell-drop-item__message">
+                          <a class="bell-drop-item__black" href="#">Anderson</a>
+                          added to Favourite 
+                          <a class="bell-drop-item__blue" href="#">Marketify Coffee Shop</a>
+                        </div>
+                        <div class="bell-drop-item__time">
+                          Just now
+                        </div>
+                    </div>
+                  </div>
+                  <div class="bell-drop-item__icon icon-shopping-cart"style="color:#ff6a6c; background-color:#fff0f0;">
+                    
+                  </div>
+                </div>
+                <div class="bell-drop-item">
+                  <div class="bell-drop-item__link"  >
+                    <div class="bell-drop-item__img">
+                    <img src="/images/circle.png" alt="">
+                      </div>
+                      <div class="bell-drop-item__title">
+                        <div class="bell-drop-item__message">
+                          <a class="bell-drop-item__black" href="#">Michael Jorden</a>
+                          commented on 
+                          <a class="bell-drop-item__blue" href="#">MartPlace Extension Bundle</a>
+                        </div>
+                        <div class="bell-drop-item__time">
+                          Just now
+                        </div>
+                    </div>
+                  </div>
+                  <div class="bell-drop-item__icon icon-comment-o" style="color:#7347c1; background-color:#f1ecf9;">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+          <a class="header__envelope icon-envelope-o" href="#">
+            <div class="header__ammount">6</div>    
+          </a>
+          <div class="envelope-drop">
+            <div class="envelope-drop__title drop-title">
+              <div class="drop-title__title">
+                My Messages
+              </div>
+              <a class="drop-title__link" href="#">
+                View All
+              </a>
             </div>
-          </div>  
+            <div class="envelope-drop__items">
+              <a class="envelope-item" href="#">
+                <img src="/images/circle.png" alt="" class="envelope-item__img">
+                  <div class="envelope-item__inner">
+                    <div class="envelope-item__title">
+                      <span>Bulbul Ahmed <span class="icon-envelope-o"></span></span>
+                      <span class="envelope-drop__blue" style="color:#0674ec;">Just now</span>
+                    </div>
+                    <div class="envelope-item__message">
+                      Hello John Smith! Nunc placerat id...
+                    </div>
+                </div>
+              </a>
+      
+              <a class="envelope-item" href="#">
+                <img src="/images/circle.png" alt="" class="envelope-item__img">
+                  <div class="envelope-item__inner">
+                    <div class="envelope-item__title">
+                      <span>Bulbul Ahmed <span class="icon-envelope-o"></span></span>
+                      <span class="envelope-drop__blue" style="color:#0674ec;">Just now</span>
+                    </div>
+                    <div class="envelope-item__message">
+                      Hello John Smith! Nunc placerat id...
+                    </div>
+                </div>
+              </a>
+
+              <a class="envelope-item" href="#">
+                <img src="/images/circle.png" alt="" class="envelope-item__img">
+                  <div class="envelope-item__inner">
+                    <div class="envelope-item__title">
+                      <span>Bulbul Ahmed <span class="icon-envelope-o"></span></span>
+                      <span class="envelope-drop__blue" style="color:#0674ec;">Just now</span>
+                    </div>
+                    <div class="envelope-item__message">
+                      Hello John Smith! Nunc placerat id...
+                    </div>
+                </div>
+              </a>
+              <a class="envelope-item" href="#">
+                <img src="/images/circle.png" alt="" class="envelope-item__img">
+                  <div class="envelope-item__inner">
+                    <div class="envelope-item__title">
+                      <span>Bulbul Ahmed <span class=""></span></span>
+                      <span class="">23 May</span>
+                    </div>
+                    <div class="envelope-item__message">
+                      Hello John Smith! Nunc placerat id...
+                    </div>
+                </div>
+              </a>
+              <a class="envelope-item" href="#">
+                <img src="/images/circle.png" alt="" class="envelope-item__img">
+                  <div class="envelope-item__inner">
+                    <div class="envelope-item__title">
+                      <span>Bulbul Ahmed <span class=""></span></span>
+                      <span>25May</span>
+                    </div>
+                    <div class="envelope-item__message">
+                      Hello John Smith! Nunc placerat id...
+                    </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <a class="header__cart icon-shopping-cart" href="#">
+            <div class="header__ammount">2</div>     
+          </a>
+          <div class="cart-drop">
+            <div class="cart-drop__item">
+              <img class="cart-drop__image" src="/images/post.jpg">
+              <div class="cart-drop__inner">
+                <a class="cart-drop__title" href="#">
+                  Finance and Consulting 
+                  Business Theme
+                </a>
+                <div class="cart-drop__cms">
+                  <img src="images/wp.png" alt="">
+                  <span>Wordpress</span>
+                </div>
+              </div>
+              <div class="cart-drop__price">
+                <button><img src="images/trash.png" alt=""></button>
+                <div class="cart-drop__cost">$60</div>
+              </div>
+            </div>
+            <div class="cart-drop__item">
+              <img class="cart-drop__image" src="/images/post.jpg">
+              <div class="cart-drop__inner">
+                <a class="cart-drop__title" href="#">
+                  Finance and Consulting 
+                  Business Theme
+                </a>
+                <div class="cart-drop__cms">
+                  <img src="images/wp.png" alt="">
+                  <span>Wordpress</span>
+                </div>
+              </div>
+              <div class="cart-drop__price">
+                <button><img src="images/trash.png" alt=""></button>
+                <div class="cart-drop__cost">$60</div>
+              </div>
+            </div>
+            <div class="cart-drop__total">
+                   Total :  <span> $120</span>  
+            </div>
+            <div class="cart-drop__links">
+              <a class="cart-drop__link" href="#" href="#">Go to Cart</a>
+              <a class="cart-drop__link" href="#" href="#">Go to Checkout</a>
+            </div>
+          </div>
+          <a class="header__link" href="#">
+            <div class="header__account-image">
+              <img src="images/account.png" alt="">
+            </div>
+              <div class="header__name">
+                Taofiq Hakim
+                <div class="header__price">
+                  $20.45
+                </div>
+              </div>
+          </a>
+          <ul class="header-drop">
+            <li><a href="#" class="icon-heart-o"> <span>Profile Page</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Dashboard</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Profile Page</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Account Settings</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Your Purchases</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Your Favorites</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Add Credits</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Sales Statements</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Upload Item</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Edit Item</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Withdrawals</span> </a></li>
+            <li><a href="#" class="icon-heart-o"> <span>Logout</span> </a></li>
+          </ul>
         </div>
-      </header>
-      <section class="search">
-        <div class="container">
-          <div class="search__wrapper">
-          <nav class="search__nav">
-            <ul>
-              <li><a href="#">HOME </a></li>                            
-              <li><a href="#">all products</a></li>
-              <li><a href="#">wordpress</a></li>
-              <li><a href="#"> festures</a></li>
-              <li><a href="#">Pages</a></li>
-            </ul>
-          </nav>
-          <form class="search__form">
-            <input class="search__input" placeholder="Search product here...">
-  
-            </input>
-            <button class="search__button icon-search" type="submit">
-  
-            </button>
-          </form>
-        </div>
-        </div>
-      </section>
+      </div>  
+    </div>
+  </header>
+
+  <section class="search">
+    <div class="container">
+      <div class="search__wrapper">
+      <nav class="search__nav">
+        <ul>
+          <li><a href="#">HOME</a>
+            <ul class="ul__drop">
+              <li><a href="#">Home One Multi User</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+            </ul>    
+          </li>     
+                
+          <li><a href="#">all products</a>
+            <ul class="ul__drop">
+              <li><a href="#">Home One Multi User</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+              <li><a href="#">Home One Multi User</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+              <li><a href="#">Home One Multi User</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+            </ul>   
+          </li>
+          <li><a href="#">wordpress</a>
+            <ul class="ul__drop">
+              <li><a href="#">Home One Multi User</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+              <li><a href="#">Home Two Single User</a></li>
+              <li><a href="#">Home Three Product</a></li>
+            </ul>   
+          </li>
+          <li><a href="#">festures</a></li>
+          <li><a href="#">Pages</a>
+            <ul class="ul__drop ul__drop_mega">
+              <div class="megamenu">
+                <div class="megamenu__item">
+                  <div class="megamenu__title">
+                    MartPlace Pages
+                  </div>
+                  <div class="megamenu__box">
+                    <ul class="megamenu__ul">
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Account Settings</a></li>
+                      <li><a href="#"> Author Purchases</a></li>
+                      <li><a href="#">Items Rating</a></li>
+                      <li><a href="#">Add Credits</a></li>
+                      <li><a href="#">Statements</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">Upload Item</a></li>
+                      <li><a href="#">Edit Items</a></li>
+                      <li><a href="#">Withdrawals</a></li>
+                      <li><a href="#">Add Payment Method</a></li>
+                    </ul>
+                    <ul class="megamenu__ul">
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Account Settings</a></li>
+                      <li><a href="#"> Author Purchases</a></li>
+                      <li><a href="#">Items Rating</a></li>
+                      <li><a href="#">Add Credits</a></li>
+                      <li><a href="#">Statements</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">Upload Item</a></li>
+                      <li><a href="#">Edit Items</a></li>
+                      <li><a href="#">Withdrawals</a></li>
+                      <li><a href="#">Add Payment Method</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="megamenu__item">
+                  <div class="megamenu__title">
+                    Dashboard
+                  </div>
+                  <div class="megamenu__box">
+                    <ul class="megamenu__ul">
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Account Settings</a></li>
+                      <li><a href="#"> Author Purchases</a></li>
+                      <li><a href="#">Items Rating</a></li>
+                      <li><a href="#">Add Credits</a></li>
+                      <li><a href="#">Statements</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">Upload Item</a></li>
+                      <li><a href="#">Edit Items</a></li>
+                      <li><a href="#">Withdrawals</a></li>
+                      <li><a href="#">Add Payment Method</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="megamenu__item">
+                  <div class="megamenu__title">
+                    Others Pages
+                  </div>
+                  <div class="megamenu__box">
+                    <ul class="megamenu__ul">
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Account Settings</a></li>
+                      <li><a href="#"> Author Purchases</a></li>
+                      <li><a href="#">Items Rating</a></li>
+                      <li><a href="#">Add Credits</a></li>
+                      <li><a href="#">Statements</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">Upload Item</a></li>
+                      <li><a href="#">Edit Items</a></li>
+                      <li><a href="#">Withdrawals</a></li>
+                      <li><a href="#">Add Payment Method</a></li>
+                    </ul>
+                    <ul class="megamenu__ul">
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Account Settings</a></li>
+                      <li><a href="#"> Author Purchases</a></li>
+                      <li><a href="#">Items Rating</a></li>
+                      <li><a href="#">Add Credits</a></li>
+                      <li><a href="#">Statements</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">Upload Item</a></li>
+                      <li><a href="#">Edit Items</a></li>
+                      <li><a href="#">Withdrawals</a></li>
+                      <li><a href="#">Add Payment Method</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </ul>   
+          </li>
+        </ul>
+      </nav>
+      <form class="search__form">
+        <input class="search__input" placeholder="Search product here...">
+
+        </input>
+        <button class="search__button icon-search" type="submit">
+
+        </button>
+      </form>
+    </div>
+    </div>
+  </section>
       <section class="search-links">
         <div class="container">
             <div class="search-links__wrapper">

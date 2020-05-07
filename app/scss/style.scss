@@ -516,12 +516,14 @@
             border-radius: 0 0 4px 4px;
             box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
             border-top: 1px solid $blue;
+            z-index: 99999999999999999999999999999999999999999;
             &_mega{
                 width: auto;
                 background-color: #fff;
                 left: -488px;
                 display: block;
                 margin: 0 auto;
+                display: none;
             }
             .megamenu {
                 width: auto;

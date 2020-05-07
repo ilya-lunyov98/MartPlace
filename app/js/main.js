@@ -119,4 +119,13 @@ $(function(){
             })
           })
 
+          $('.preview__tabs .tab').on('click', function(event) {
+            var id = $(this).attr('data-id');
+              $('.preview__tabs').find('.tab-item').removeClass('active-tab').hide();
+              $('.preview__tabs .tabs').find('.tab').removeClass('active1');
+              $(this).addClass('active1');
+              $('#'+id).addClass('active-tab').fadeIn();
+              return false;
+            });
+
       });
